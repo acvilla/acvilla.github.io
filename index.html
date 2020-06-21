@@ -90,14 +90,16 @@
             </div>
             <div class="row">
             	<div class="portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
                         <img src="img/portfolio/BLDC.jpg" class="img-responsive" alt="">
+                    </a>
                     <div class="portfolio-caption">
-                        <h4>500W Brushless DC Motor Controller</h4>
+                        <h4>500W Brushless DC Motor Controller (Click picture for details!)</h4>
                         <p class="text-muted">Personal Project</p>
                     </div>
                 </div>
@@ -495,6 +497,37 @@
                                 <!-- Project Details Go Here -->
                                 <h2>GPS Display</h2>
                                 <p class="item-intro text-muted">A simple GPS display using 8-bit pic16f873a MCU, communicating through the UART module. Shows, longtitude and latitude and will show when the receiver has a fix on satellites.</p>
+								<video width="720" height="320" controls>
+                    			<source src="GPS-Video.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+                    			</video>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>500W Brushless DC Motor Speed Controller</h2>
+                                <p class="item-intro text-muted">A motor controller for use on an e-bike. Utilizes sensored trapezoidal control to drive a 500W BLDC motor. The inverter power stage uses a soft-switching PWM
+                                scheme, with trapezoidal commutation. Trapezoidal commutation is the simplest scheme, though more torque ripple is produced in comparison to Field-Oriented Controller, which requires the measurement of phase currents. The soft chopping approach allows not only a control of the current and of the rate of change of the
+								current but a minimization of the current ripple as well. In this soft chopping mode the low side transistor is left ON during the phase supply and the high side transistor switches according to the pulsed signal. This also reduces EMI and is the method used on this board. Hall effect sensors are used to detect the position of the rotor. </p>
 								<video width="720" height="320" controls>
                     			<source src="GPS-Video.mp4" type="video/mp4">
 								Your browser does not support the video tag.
